@@ -1,0 +1,55 @@
+h1{
+    padding: 5px;
+    
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans Ms";
+
+}
+
+nav{
+    overflow: hidden;
+    background-color: #333;
+    padding: 2px;
+    display: flex;
+}
+
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: aqua;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+.video-background{
+    
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#paragraph{
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#head{
+    color: white;
+    
+}
+
+#circle{
+    clip-path: circle();
+}
